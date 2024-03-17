@@ -57,15 +57,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ed570934406eb16438a4e976b1b4500774099c13b8cb96eec99f620f05090ddf"
 
 [[package]]
-name = "brutforce"
-version = "0.1.0"
-dependencies = [
- "num_cpus",
- "reqwest",
- "tokio",
-]
-
-[[package]]
 name = "bumpalo"
 version = "3.15.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1047,6 +1038,15 @@ checksum = "77afa9a11836342370f4817622a2f0f418b134426d91a82dfb48f532d2ec13ef"
 dependencies = [
  "js-sys",
  "wasm-bindgen",
+]
+
+[[package]]
+name = "web_directory_brute_forcing"
+version = "0.1.0"
+dependencies = [
+ "num_cpus",
+ "reqwest",
+ "tokio",
 ]
 
 [[package]]
