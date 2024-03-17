@@ -1,3 +1,3 @@
 fn main() {
-    println!("Brute Force");
+    println!("brut force!");
 }
