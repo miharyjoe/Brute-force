@@ -15,13 +15,13 @@ Follow these steps to build, compile, and run the program:
    ```bash
    git clone https://github.com/miharyjoe/Brute-force.git
 
-   cd brute_force
+   cd Brute_force
 
    cargo build --release
 
    cd target/release
 
-   ./web_directory_brute_forcing -u <url target> -w <path to the worldlis>
+   ./web_directory_brute_forcing -u <url target> -w <path to the worldlist>
    ```
 
 ## Contributor
